@@ -1,18 +1,15 @@
 <?php
-echo " van welk getal wil je dedag weten".PHP_EOL;
+echo " Voer het getal waar je de dag van wilt weten in" . PHP_EOL;
 $input = readline();
 
-
 $array = array(
-    "kek",
-    "maandag" ,
-    "dinsdag" ,
-    "woensdag" ,
-    "dodnerdag" ,
-    "vrietdagh" ,
-    "zaterdag" ,
-    "zondagj" ,
+    "Maandag",
+    "Dinsdag" ,
+    "Woensdag" ,
+    "Donderdag" ,
+    "Vrijdag" ,
+    "Zaterdag" ,
+    "Zondag" ,
 );
-    
-echo " Bij nummer  ". $input. " hoort de weekdag " . $array[$input].PHP_EOL; 
+echo " Bij het nummer " . $input . " hoort de dag " . $array[$input] . PHP_EOL; 
 
